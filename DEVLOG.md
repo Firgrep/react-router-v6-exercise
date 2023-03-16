@@ -11,6 +11,12 @@ Differences to note between Link and, Navigate and useNavigate. The former belon
 
 "Declarative programming is a paradigm describing WHAT the program does, without explicitly specifying its control flow. Imperative programming is a paradigm describing HOW the program should do something by explicitly specifying each instruction (or statement) step by step, which mutate the program's state."
 
-The logic here is similar to my experience with Django: a lot of the interaction is taken care of by importing various components from react. It would be good to get to know these ready-made components in more depth.
+The <Outlet> component tells React Router “where” to render nested child <Route> elements.
 
+A lot of the logic here is similar to my experience with Django: a lot of the interaction is taken care of by importing various components from react. It would be good to get to know these ready-made components in more depth.
+
+# Info
+"The useParams() method returns the URL parameters as key/value pairs in an object. In this case, you could access the songId by writing const { songId } = useParams()."
+
+# Questions
 So it's possible to be "logged in", but my question is where is one logged in if there is no server? Or does React simulate a server locally? Or is the "logged in" state saved into the browser? Homework for me to figure out. 
